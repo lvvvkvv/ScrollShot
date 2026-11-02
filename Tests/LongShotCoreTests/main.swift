@@ -1,0 +1,15 @@
+import Foundation
+let tests = FrameMatcherTests()
+tests.testFindsExactPixelOffsets()
+tests.testIdenticalFrameDoesNotAppend()
+tests.testReverseScrollDoesNotAppend()
+tests.testLargeJumpCannotSilentlyJoin()
+tests.testFlatPageDoesNotInventMovement()
+tests.testMalformedFrameIsRejected()
+let images = ImageAccumulatorTests()
+images.testCompositionKeepsPixelOrderAndNoDuplicateFrame()
+images.testUnmatchedFrameKeepsLastGoodAnchor()
+images.testMemoryLimitPreservesExistingImage()
+runIntegrationChecks()
+print("Core checks: \(failures) failure(s)")
+if failures > 0 { exit(1) }
