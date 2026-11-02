@@ -2,7 +2,7 @@
 
 A native macOS app for regional scrolling screenshots. Select an area, scroll downward, then preview, copy or save a full-resolution PNG. Chinese UI, light/dark workspace, no account or upload.
 
-[Download](https://github.com/lvvvkvv/ScrollShot/releases/latest) · [中文说明](README.md) · [MIT License](LICENSE)
+[Download](https://github.com/lvvvkvv/ScrollShot/releases/tag/v0.2.1) · [中文说明](README.md) · [MIT License](LICENSE)
 
 ![ScrollShot](docs/images/ScrollShot-home-light.png)
 

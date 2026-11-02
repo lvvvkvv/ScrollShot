@@ -4,7 +4,7 @@
 
 Native regional scrolling screenshots for macOS. Select an area, scroll down, then preview, copy or save a full-resolution PNG.
 
-[下载安装包 / Download](https://github.com/lvvvkvv/ScrollShot/releases/latest) · [English](README.en.md) · [MIT License](LICENSE)
+[下载安装包 / Download](https://github.com/lvvvkvv/ScrollShot/releases/tag/v0.2.1) · [English](README.en.md) · [MIT License](LICENSE)
 
 ![ScrollShot 工作台](docs/images/ScrollShot-home-light.png)
 
